@@ -1,7 +1,11 @@
 
+// The functions below gets the ID from the HTML file and sets the div to red and makes the text of the color appear on click
 function redColour()
 {
+    //sets div background to red onclick
     document.getElementById("red").style.backgroundColor ="red";
+
+    //sets div text to appear on click
     document.getElementById("red").innerHTML="red";
 }
 
